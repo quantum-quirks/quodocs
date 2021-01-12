@@ -27,6 +27,7 @@ Quo has been installed successfully🎉
 ```
 
 </div>
+
 ## Example
 
 ### Example 1
@@ -37,4 +38,11 @@ Quo has been installed successfully🎉
 import quo
 quo.secho(f'Hello Gerry', fg='black', bg='cyan')
 
+```
+
+* Run the application
+```console
+$ python test.py
+
+// Usage: quo.secho() bg=Background color, fg=Foreground color
 ```
