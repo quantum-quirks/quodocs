@@ -65,4 +65,6 @@ import quo
         survey() 
 // A simple survey application
 ```
-                                                                                        @quo.command()                                             @quo.option("--count", default=1, help="The number of times the feedback is printed.")                                @quo.option("--name", prompt="What is your name", help="This prompts the user to input their name.")                  @quo.option("--profession", prompt="What is your profession", help="This prompts user to input their proffession
+
+## Donate
+In order to for me to maintain this project, `please consider donating today` 
