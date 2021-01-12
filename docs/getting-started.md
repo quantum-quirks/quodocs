@@ -32,7 +32,7 @@ Quo has been installed successfully🎉
 
 ### Example 1
 
-* Create a file `test.py` 
+* Create a  file `test.py` 
 
 ```Python
 import quo
@@ -46,3 +46,23 @@ $ python test.py
 
 // Usage: quo.secho() bg=Background color, fg=Foreground color
 ```
+
+### Example2
+* `test.py`
+
+```Python
+import quo 
+    @quo.command()
+    @quo.option("--count", default=1, help="The number of times the feedback is printed.")
+    @quo.option("--name", prompt="What is your name", help="This prompts the user to input their name.")
+    @quo.option("--profession", prompt="What is your profession", help="This prompts user to input their proffession")
+    def survey(count, name, proffession):
+       
+        for _ in range(count):
+            quo.echo(f"Thank you for your time, {name}!")
+
+    if __name__ == '__main__':
+        survey() 
+//A simple survey application
+```
+                                                                                        @quo.command()                                             @quo.option("--count", default=1, help="The number of times the feedback is printed.")                                @quo.option("--name", prompt="What is your name", help="This prompts the user to input their name.")                  @quo.option("--profession", prompt="What is your profession", help="This prompts user to input their proffession
