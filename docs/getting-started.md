@@ -1,14 +1,28 @@
 ---
 title: Getting started
-date: 2018-09-15 07:42:34
+date: 2021-01-15 07:42:34
 slug: getting-started
 ---
 
-## What is Jamdocs
+## What is Quo
 
-Jamdocs is a documentation theme for Gridsome, built to spin up quick, beautiful and static documentation sites fast without hassle. Since there is no theming system for Gridsome yet, Jamdocs comes with Gridsome, plug-ins and packages as dependencies.
+Quo is a Python based toolkit for creating Command-Line Interface (CLI) applications. Quo improves programmer's productivity because it's easy to use and supports auto completion which means less time will be spent debugging.
 
-## Local installation
+## Installation
+
+<div class="termy">
+
+```console
+Install
+$ pip install quo
+
+or install and update
+$ pip install -U quo
+🔸🔸🔸🔸🔸💯 
+Quo has been installed successfully🎉 
+```
+
+</div>
 
 Even though Jamdocs is so simple, you dont really need to set it up localy (you could just fork it on github to edit styles and md-files) - if you want to change it up a bit I recommend setting up localy for a better developer experience.
 
