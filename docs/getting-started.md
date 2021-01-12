@@ -27,13 +27,14 @@ Quo has been installed successfully🎉
 ```
 
 </div>
+## Example
 
-Even though Jamdocs is so simple, you dont really need to set it up localy (you could just fork it on github to edit styles and md-files) - if you want to change it up a bit I recommend setting up localy for a better developer experience.
+### Example 1
 
-To set up a new instance of Jamdocs, and start developing just clone the project from Github like, go to the directory and run gridsome:
+* Create a file `test.py` 
 
-```bash
-git clone https://github.com/samuelhorn/jamdocs project-name
-cd project-name
-gridsome develop
+```Python
+import quo
+quo.secho(f'Hello Gerry', fg='black', bg='cyan')
+
 ```
