@@ -34,7 +34,7 @@ Quo is a Python based toolkit for creating Command-Line Interface (CLI) applicat
 
 ## Requirements
 
-Python 3.6+
+Python **3.6+**
 
 ## Installation
 
